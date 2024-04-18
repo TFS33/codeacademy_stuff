@@ -40,8 +40,8 @@ class Vehicle(object):
 
     def chech_if_driver_is_available(self):
         from main import driver
-        curent_time = datetime.now()
-        if driver[1] < curent_time < driver[2]:
+        current_time = datetime.now()
+        if driver.holidays_starts < current_time < driver.holidays_ends:
             print('Vairuotojas atostogauja')
         else:
             print('Vairuotojas gali vaziuoti')

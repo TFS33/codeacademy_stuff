@@ -7,7 +7,5 @@ class Driver:
 
     def can_drive_with_trailer(self):
         if self.licence_category == 'E':
-            return True
-        return False
-
-
+            return "Vairuotojas gali valdyti priekaba"
+        return "Vairuotojas negali valdyti priekabos"

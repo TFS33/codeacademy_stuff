@@ -8,8 +8,3 @@ class Car(Vehicle):
                  insurance: object = None, driver_status: object = None):
         super().__init__(mileage, licence_plate, fuel_type, fuel_consumption, fixed_cost, inspection, insurance,
                          driver_status)
-
-
-car = Car(
-    mileage=210, licence_plate='NBC878', fuel_consumption=6.8, fuel_type='Diesel', fixed_cost=88,
-    inspection=datetime(2025, 11, 2), insurance=datetime(2024, 12, 5)

@@ -17,19 +17,10 @@ class Bus(Vehicle):
         except ZeroDivisionError as e:
             print(f"Nera keleiviu ", {e})
 
-    def get_cost_of_transporting(self, fuel_price_diesel,):
+    def get_cost_of_transporting(self, fuel_price_diesel, ):
         cost_of_fuel = self.mileage / 100 * self.fuel_consumption * fuel_price_diesel
         cost_of_day_maintenance = self.fixed_cost / 365
         total_cost = cost_of_fuel + cost_of_day_maintenance
-        return round(total_cost * self.get_how_many_buses_needed(all_passengers= 0), 2)
+        return round(total_cost * self.get_how_many_buses_needed(all_passengers= 120), 2)
 
-
-
-
-
-bus = Bus(
-    mileage=10000, licence_plate="TFS456", fuel_type="Diesel", fuel_consumption=10, fixed_cost=500,
-    inspection=datetime(2024, 5, 10), insurance=datetime(2025, 10, 10),
-    driver_status=True, number_of_passangers=30
-)
 
