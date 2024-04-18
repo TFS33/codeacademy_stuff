@@ -1,7 +1,5 @@
 from vehicle import Vehicle
 
-
-
 class Truck(Vehicle):
 
     def __init__(self, mileage: float = 0.0, licence_plate: str = '', fuel_type: str = '',
