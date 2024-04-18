@@ -45,5 +45,3 @@ class Vehicle(object):
             print('Vairuotojas atostogauja')
         else:
             print('Vairuotojas gali vaziuoti')
-
-

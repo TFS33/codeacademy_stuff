@@ -42,4 +42,3 @@ print(truck.get_cost_for_distance_driven(1.56))
 print(truck.get_inspection_status())
 print(truck.get_insurance_status())
 print(truck.how_many_trucks_and_trailers(120))
-

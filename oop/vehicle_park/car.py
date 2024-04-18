@@ -1,5 +1,4 @@
 from vehicle import Vehicle
-from datetime import datetime
 
 class Car(Vehicle):
 

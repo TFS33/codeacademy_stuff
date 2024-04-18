@@ -1,4 +1,3 @@
-from datetime import datetime
 from vehicle import Vehicle
 import math
 
@@ -22,5 +21,3 @@ class Bus(Vehicle):
         cost_of_day_maintenance = self.fixed_cost / 365
         total_cost = cost_of_fuel + cost_of_day_maintenance
         return round(total_cost * self.get_how_many_buses_needed(all_passengers= 120), 2)
-
-
