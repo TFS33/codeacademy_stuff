@@ -47,13 +47,13 @@ z = x == y
 z1 = x != y
 print(z1)
 
-team = 'adas laila'
-name = 'dELL anan'
-print('pavz, ', name)
+team = "adas laila"
+name = "dELL anan"
+print("pavz, ", name)
 print(len(name))
-var = (name.split())
+var = name.split()
 print(var)
-name2 = (len(var))
+name2 = len(var)
 print(name2)
-var.append('naujas')
+var.append("naujas")
 print(var)
