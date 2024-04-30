@@ -4,21 +4,26 @@ lkl = ('Zalgiris' , 'Rytas' , 'Siauliai')
 nkl = ('Olimpas', )
 lkl_nkl = lkl + nkl
 lkl_nkl2 = ('Zalgiris', 'Rytas', 'Siauliai', 'Olimpas')
+
 print(lkl)
 print(lkl_nkl2)
 
 # listas
+
 lkl = ['Rytas' , 'zalgiris']
 print(lkl)
 lkl.append('Siauliai') # kelti po viena , neleidzia 2+
 print(lkl)
 lkl.insert( 2 ,'Wolves')
+
 print(lkl)
 lkl2024 = tuple(lkl)
 print(lkl2024)
 # print(len(lkl))
 # print(lkl.count('Wolves'))
+
 lkl.remove('Wolves')
+
 print(lkl)
 lkl.pop(-1)
 print(lkl)
@@ -29,6 +34,7 @@ print(lkl)
 battles=['1236', '1260' , '1410' , '1893']
 print(battles)
 from draftas import  battles   #importas is kito failo , * reiskia visi failai
+
 print(battles)
 battles.remove(battles[-1])
 print(battles)
@@ -40,15 +46,18 @@ tuple_number = tuple(battles)
 # int_numbers = int(tuple_battles)
 # print(tuple_number)
 
+
 battles.append('1918')
 number = []
 # for x in battles:
    # print(x) # x generacijos procesas
    # number.append(int(x))
+
 print(number)
 print(type(number))
 # print(min(number), max(number))
 print()
+
 skaiciai = [2 , 5 ,8 ,11 , 14 ,17]
 for x in battles:
     print('Musis', x)
@@ -56,12 +65,14 @@ for x in skaiciai:
     print(x , x + 3)
 
 my_list = ['first' , 'second' , 'third']
+
 print(my_list[-1])
 print(my_list[:1])
 print(my_list[::1])
 print(my_list[::-1])
 print(my_list[0:2])
 print(1 in my_list)
+
 
 mixas = [5 , 5.6 ,'Lietuva' , [3 , 6.7 , '123'], True]
 battles_tuple = list(('1236', '1260' , '1410' , '1893'))
@@ -92,6 +103,7 @@ print()
 battles.append('1990')
 battles.insert(6 , '1323')
 
+
 print(battles)
 
 
@@ -100,8 +112,9 @@ for y in enumerate(battles):
 
 
 for x in range(len(battles)):
-    print(x , battles[x])
-    print(x + 1 , battles[x])
+
+    print(x, battles[x])
+    print(x + 1, battles[x])
 
 
 
@@ -111,6 +124,7 @@ for x in range(len(battles)):
 
 import random
 import time
+
 nmbrs = [] # tuscias ciklas
 for i in range(25):
     # time.sleep(3)
@@ -122,3 +136,4 @@ number.sort() # rikiavimas is eiles
 print(number)
 number.reverse() # didziausias > maziausias
 print(number)
+

@@ -5,6 +5,7 @@ if x == 10:
 
 x = 500
 y = 600
+
 if  x<y:
      print('y yra didesnis uz x')
 
@@ -21,6 +22,7 @@ if  y<x:
 
 if y < x:
     print('x yra didesnis2 uz y')
+
 
 
 import random
@@ -86,6 +88,7 @@ elif x >=2:
     x-=2
 else:
     print('Pabaiga')
+
 print(x)
 
 
@@ -94,7 +97,10 @@ a = 200
 b = 300
 
 print("A") if a < b else print("B")
+
+
 print("A") if a > b else print("=") if a==b else print("B")
+
 
 
 
@@ -112,4 +118,3 @@ for x in mlb:
 
     else:
         print(None)
-
