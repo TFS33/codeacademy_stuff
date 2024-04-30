@@ -9,6 +9,7 @@ print(b)
 print(a[3][2][1][1:3])
 
 value = {}
+
 for value in value:
 
     if naujas:
